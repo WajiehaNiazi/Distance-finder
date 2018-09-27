@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Distance finder</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon 16x16" href="img/x.jpg">
+		<link rel="Stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id="alldiv">
+			<header>
+				<div id="head"><h1>فاصله یاب</h1></div>
+			</header>
+			<div id="start">
+				<div class="person"><a href="index.html"><button style="cursor:pointer;" class="home">حساب کردن</button></a></div>
+				<div class="person"  id="btn"><button style="cursor:pointer;" class="home">رهنما</button></div>
+					<div id="modal">
+						<input type="image"   id="backhelp" name="btn" alt="back" src="img/tr.png" >
+						<div>
+							<h1 style="text-align:center;"> فاصله یاب </h1>
+							<p style="direction: rtl"><bdi>من توانستم با استفاده از مهارت های (HTML,CSS,JAVASCRIPT) یک آ‍پلیکشن به نام فاصله یاب را بسازم و این اپلیکشن قابلیت فاصله بین ولایات را  مشخص مینماید. سرعت را که بدهید مدت زمان رسید از یک ولایت در ولایت دیگر را میدهد.یک اپلیکشن موثر و کامل می باشد.و از جمله اپلیکشن های است که امروزه کاربرد موثر دارد.</bdi></p>
+						</div>
+					</div>
+				<div class="person" id="about"><button class="home">درباره</button></div>
+					<div id="modal1">
+						<input type="image"   id="backabout" name="btn" alt="back" src="img/tr.png" >
+						<div id="E-modal1">
+							<h1 style="text-align:center;">درباره من</h1>
+							<p style="direction: rtl"><bdi>وجیهه نیازی محصل سال دوم پوهنحی کامپیوتر ساینس در پوهنتون هرات هستم
+مدت 8 ماه میشود که در مکتب کُد نویسی  (CTI)درس میخوانم .و در این مدت توانستم مهارت های چون(HTML ,CSS ,JAVASCRIPT) آشنایی پیدا نموده و تسلط کامل پیدا کنم. "به نظر خودم  با استفاده ازاین مهارت ها میتوانیم آن چیزی را که در ذهن آدم خطور مینماید میتوانیم آن را انجام بدهیم."                                   
+                                  
+                           </bdi>                       
+							</p>
+							<ul>
+								<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fa fa-google-plus-square"></i></a></li>
+								<li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa fa-mail-reply"></i></a></li>
+								<li><a href="#" target="_blank"><i class="fa fa-telegram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				<div class="person" id="exit"><button class="home">خروج</button></div>
+			</div>
+		</div>
+			<script type="text/javascript" >
+			var btn =document.getElementById('btn');
+			var myModal =document.getElementById('modal');
+			btn.addEventListener("click",function(){
+				myModal.style.display="block";
+				
+			});
+			var exit=document.getElementById('exit');
+			exit.addEventListener("click",function () {
+				window.close();
+			});
+			var about =document.getElementById('about');
+			var modal1 =document.getElementById('modal1');
+			about.addEventListener("click",function(){
+				modal1.style.display="block";
+			});
+			var backhelp=document.getElementById('backhelp');
+			backhelp.addEventListener("click",function(){
+				modal.style.display="none";
+			});
+			var backabout =document.getElementById('backabout');
+			backabout.addEventListener("click",function(){
+				modal1.style.display="none";
+			})
+
+					
+			</script>
+	</body>
+</html>

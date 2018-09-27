@@ -1,0 +1,860 @@
+body{
+	margin:0;
+	padding: 0;
+	background-image: url("../img/c.jpg");
+	background-size: cover;
+}
+#start{
+	background:url("../img/c.jpg");
+	background-size: cover;
+	box-shadow: 2px 2px 5px #000;
+	border-radius:20px;
+	width: 25%;
+	overflow: auto;
+	margin: auto;
+	height: 350px;
+	padding: 3% 7%;
+	text-align: center;
+	margin-bottom: 3%;
+}
+.person {
+	text-decoration: none;
+	cursor: pointer;
+	width: 90%;
+	margin:20px auto;
+}
+.home{
+	height:35px;
+	font-size:25px;
+	direction: rtl; 
+	font-family: "Arabic Typesetting";
+	background:#ffe6b3;
+	border-radius: 30% 0 ;
+	outline: none;
+	box-shadow: 2px 2px 2px #000;
+	font-weight: bold;
+	cursor: pointer;
+	width: 100%;
+}
+#modal{
+		display: none;
+	position:fixed;
+	height:400px;
+	width:500px;
+	background: url("../img/c.jpg");
+	color: white;
+	top:145px;
+	left: 320px;
+	border-radius: 20px;
+	margin: 3% 1px 3% 11%;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 20px;
+	text-align: justify;
+	word-spacing: 2px;
+	line-height: 28px;
+	box-shadow: 3px 3px 3px #000;
+
+}
+#modal1{
+	display: none;
+	position:fixed;
+	height:400px;
+	width:500px;
+	background: url("../img/c.jpg");
+	color: white;
+	top:145px;
+	left: 320px;
+	border-radius: 20px;
+	margin: 3% 1px 3% 11%;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 20px;
+	text-align: justify;
+	word-spacing: 2px;
+	line-height: 28px;
+	box-shadow: 3px 3px 3px #000;
+
+}
+#back{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 0;
+	left: 0;
+	outline: none;
+}
+#backhelp{
+	height: 60px;
+	width: 60px;
+	position: relative;
+	right: 20px;
+	outline: none;
+}
+ul{
+	list-style: none;
+}
+ul>li{
+	font-size: 30px;
+	display: inline-block;	
+}
+#speed{
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	word-spacing: 2px;
+}
+li>a{
+	color: #ffe6b3;
+}
+li>a:hover{
+	color: #fff;
+}
+#backabout{
+	height: 60px;
+	width: 60px;
+	position: relative;
+	right:20px;
+	outline: none;
+}
+#myModal{
+	position: fixed;
+	top: 6.4%;
+	left: 15%;
+	width: 70%;
+	height: 85.3%;
+	background: rgba(26, 19, 0,0.7);
+	border-radius: 20px;
+	display: none;
+	z-index:1;
+}
+#con1{
+	width: 60%;
+	height: 300px;
+	padding: 1%;
+	color:   #ffe6b3;
+	margin: 10% auto;
+}
+#Pictures{
+	position: relative;
+	left:280px;
+	bottom: 20px;
+}
+#im1{
+	position: absolute;
+	z-index: -1;
+}
+#im2{
+	position: absolute;
+	left: 320px;
+}
+#label{
+	font-size: 40px;
+	font-weight: bold;
+	position: relative;
+	top: 100px;  
+}
+#t4{
+	font-size:20px;
+	color:#ffe6b3;
+	text-align: center;
+}
+#t5{
+	font-size:30px;
+	font-weight: bold;
+	color:#ffe6b3;
+}
+#homediv{
+	float: left;
+	height: 60px;
+	width: 40px;
+}
+#homediv>a{
+	color:#ffe6b3;
+}
+#close{
+	height: 60px;
+	width: 40px;
+	float: right;
+}
+*{box-sizing:border-box;}
+.container{
+	margin:50px auto;
+	border-radius:20px;
+	overflow: auto;
+	background-image: url("../img/c.jpg");
+	background-size: cover;
+	width: 70%;
+	background-size: cover;
+	box-shadow: 2px 2px 5px #000;	
+}
+header{ 
+	width: 100%;
+	margin:  0 0 20px 0;
+	overflow: auto;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px 5px #000;
+	color: #ffe6b3;
+}
+.rightmain{
+	box-shadow: 2px 2px 5px #000;
+	width: 50%;
+	border-radius:20px;
+	overflow:auto;
+	height:330px;
+	float:right;
+	position: relative;
+}
+.leftmain{
+	box-shadow: 2px 2px 5px #000;
+	width: 48%;
+	float: left;
+	border-radius:20px;
+	background-image: url("../img/c.jpg");
+	background-size: cover;
+	height:330px;
+}
+#left{
+	height: 370px;
+}
+#right{
+	height: 370px;
+}
+.img>img{
+	position: absolute;
+}
+.mainsection{
+	width: 80%;
+	margin: auto;
+}
+.sce{
+	width: 40%;
+	margin: 30px auto;
+}
+.sce1{
+	width: 40%;
+	margin: auto;
+	position: relative;
+	bottom: 15px;
+	cursor: pointer;
+}
+#b2{
+	display: none;
+}
+.content1{
+	width: 100%;
+	height:40px;
+	font-size:25px;
+	direction: rtl; 
+	font-family: "Arabic Typesetting";
+	background:#ffe6b3;
+	border-radius: 30% 0 ;
+	outline: none;
+	box-shadow: 2px 2px 2px #000;
+	font-weight: bold;
+}
+#href{
+	width: 20%;
+}
+a>.content2{
+	width: 40%;
+	position: relative;
+	bottom: 10px;
+	height:30px;
+	left: 20px;
+	font-size:20px;
+	direction: inline;
+	direction: rtl; 
+	font-family: "Arabic Typesetting";
+	background:#ffe6b3;
+	border-radius: 30% 0 ;
+	outline: none;
+	box-shadow: 2px 2px 2px #000;
+	font-weight: bold;
+}
+#b1{
+	cursor: pointer;
+	font-size: 30px;
+	
+}
+#main{
+	width: 40%;
+	margin: 30px auto;
+	background:url("../img/c.jpg");
+	background-size: cover;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px #000;
+	height: 390px;
+}
+#text{
+	height: 40px;
+	width: 100%;
+	background:#ffe6b3;
+	border-radius: 30% 0 ;
+	outline: none;
+
+}
+#time{
+	margin-bottom: 30px;
+}
+#Badghis:hover{
+	filter: sepia(100%);
+}
+#Kunduz:hover{
+	filter: sepia(100%);
+}
+#Badakhshan:hover{
+	filter: sepia(100%);
+}
+#Takhar:hover{
+	filter: sepia(100%);
+}
+#Sar-ePol:hover{
+	filter: sepia(100%);
+}
+#Samangan:hover{
+	filter: sepia(100%);
+}
+#Jowzjan:hover{
+	filter: sepia(100%);
+}
+#Faryab:hover{
+	filter: sepia(100%);
+}
+#Balkh:hover{
+	filter: sepia(100%);
+}
+#Panjshir:hover{
+	filter: sepia(100%);
+}
+#Logar:hover{
+	filter: sepia(100%);
+}
+#MaidanWardak:hover{
+	filter: sepia(100%);
+}
+#Kapisa:hover{
+	filter: sepia(100%);
+}
+#Parwan:hover{
+	filter: sepia(100%);
+}
+#Kandahar:hover{
+	filter: sepia(100%);
+}
+#Herat:hover{
+	filter: sepia(100%);
+}
+#Kabul:hover{
+	filter: sepia(100%);
+}
+#Nangarhar:hover{
+	filter: sepia(100%);
+}
+#Paktika:hover{
+	filter: sepia(100%);
+}
+#Khost:hover{
+	filter: sepia(100%);
+}
+#Paktia:hover{
+	filter: sepia(100%);
+}
+#Helmand:hover{
+	filter: sepia(100%);
+}
+#Nimruz:hover{
+	filter: sepia(100%);
+}
+#Farah:hover{
+	filter: sepia(100%);
+}
+#Bamyan:hover{
+	filter: sepia(100%);
+}
+#Laghman:hover{
+	filter: sepia(100%);
+}#Ghazni:hover{
+	filter: sepia(100%);
+}
+#Urozgan:hover{
+	filter: sepia(100%);
+}#Daykundi:hover{
+	filter: sepia(100%);
+}
+#Ghor:hover{
+	filter: sepia(100%);
+}
+#Baghlan:hover{
+	filter: sepia(100%);
+}
+#Nuristan:hover{
+	filter: sepia(100%);
+}
+#Kunar:hover{
+	filter: sepia(100%);
+}
+#Zabul:hover{
+	filter: sepia(100%);
+}
+#Kabul{
+			top:111.5px; 
+			left:259px;
+			width:31px;
+			height:27px;
+		}
+		#Herat{
+			top:89px; 
+			left:19.8px;
+			width:126.8px;
+			height:92px; 
+		}
+		#Kandahar{
+			top:174.5px;
+			left:113px; 
+			width:128.5px;
+			height:129px;
+		}
+		#Parwan{
+			left:234px; 
+			top:97px;
+			width:62px;
+			height:27px;
+		}
+		#Kapisa{
+			top:99px;
+			left:266px;
+			width:29.5px;
+			height:28.5px;
+		}
+		#MaidanWardak{
+			top:103px; 
+			left:214px;
+			width:59.5px;
+			height:64px;
+		}
+		#Logar{
+			 top:126px; 
+			 left:246px; 
+			 width:52px; 
+			 height:36px;
+		}
+		#Panjshir{
+			 top:80.8px;
+			 left:267.6px;
+			 width:33px;
+			 height:32px;
+		}
+		#Balkh{
+			 width:70px;
+			 height:60px;
+			 top:38px; 
+			 left:184.5px; 
+		}
+		#Faryab{
+			width:84.5px; 
+			height:68.5px; 
+			top:41px; 
+			left:114px;
+		}
+		#Jowzjan{
+			width:104.5px;
+			height:86px;
+			top:16px;
+			left:137px; 
+		}
+		#Samangan{
+			top:57px;
+			left:202.5px;
+			width:58px; 
+			height:52px;
+		}
+		#Sar-ePol{
+			left:164.4px;
+			top:60px;
+			width:61px; 
+			height:59px;
+		}
+		#Takhar{
+			width:69.9px; 
+			height:60px;  
+			left:252px; 
+			top:32px;
+		}
+		#Badakhshan{
+			left:284px; 
+			top:1.5px; 
+			width:115px; 
+			height:110px; 
+		}
+		#Kunduz{
+			width:46.5px;
+			height:43px; 
+			top:36px; 
+			left:233px;
+		}
+		#Badghis{
+			top:71px; 
+			left:87.5px;
+			width:78px; 
+			height:69px;
+		}
+		#Farah{
+			top:137px; 
+			left:27px;
+			width:130.5px;
+			height:94px;
+		}
+		#Nimruz{
+			top:192px; 
+			left:32px;
+			width:99px; 
+			height:100px;
+		}
+		#Helmand{
+			 top:152px; 
+			 left:69px;
+			 width:114px;
+			 height:150.5px;
+		}
+		#Zabul{
+			top:168px; 
+			left:185px;
+			width:64px;
+			height:70.5px; 
+		}
+		#Paktia{
+			 top:124px; 
+			 left:243px; 
+			 width:66px;
+			 height:60px;
+		}
+		#Khost{
+			top:140px; 
+			left:273px; 
+			width:25px; 
+			height:36px;
+		}
+		#Paktika{
+			top:154.5px;
+			left:223px; 
+			width:65px;
+			height:68px;
+		}
+		#Nangarhar{
+			left:268px;
+			top:117px; 
+			width:63px;
+			height:28.5px; 
+		}
+		#Kunar{
+			top:97px; 
+			left:302px;
+			width:27.5px; 
+			height:31.5px;
+		}
+		#Nuristan{
+			left:281px; 
+			top:72px; 
+			width:53px;
+			height:53px;
+		}
+		#Baghlan{
+			width:64.4px;
+			top:60px; 
+			left:231px;
+			height:58px;
+		}
+		#Ghor{
+			left:82.5px; 
+			top:96px;
+			width:143px;
+			height:82px;
+		}
+		#Daykundi{
+			top:118.9px; 
+			left:163px; 
+			width:65px;
+			height:59.5px;
+		}
+		#Urozgan{
+			top:154px;
+			left:159.5px;
+			width:62px;
+			height:50.5px;
+		}
+		#Ghazni{
+			top:121.5px;
+			left:203px;
+			width:60px;
+			height:95px;
+		}
+		#Laghman{
+			top:103.5px;
+			left:282px;
+			width:26.5px;
+			height:29px;
+		}
+		#Bamyan{
+			top:90px; 
+			left:195px; 
+			width:55.9px;
+			height:61.5px;
+		}
+.clr{
+	clear: both;
+}
+footer{ 
+	width: 100%;
+	height: 100px;
+	margin: 20px 0 0 0;
+	overflow: auto;
+}
+@media screen and (max-width:720px) {
+	#head{ 
+		font-size: 20px;
+	}
+	.rightmain{
+		width: 100%;
+		display:block;
+		margin: 10px auto;
+	}
+	.leftmain{
+		width: 100%;
+		display:block;
+		margin: 10px auto;
+	}
+	.mainsection{
+		width: 90%;
+		margin: auto;
+	}
+	.container{
+	margin:0;
+	border-radius:0;
+	overflow: auto;
+	width: 100%;
+	}
+	#alldiv{
+		width: 100%;
+		}			
+	#start{
+		box-shadow: none;
+		background: url("");
+		border-radius:0;
+		width:100%;
+		margin-bottom: 0;
+	}
+	.person {
+		width: 40%;
+			}
+	#modal{
+		height:400px;
+		width:100%;
+		direction: rtl;
+		top:0px;
+		left: 0px;
+		border-radius: 20px;
+		margin: auto;
+		padding: 5px;
+		word-spacing: 1px;
+	}
+	#modal1{
+		height:400px;
+		width:100%;
+		direction: rtl;
+		top:0px;
+		left: 0px;
+		border-radius: 20px;
+		margin: auto;
+		padding: 5px;
+		word-spacing: 1px;
+	}
+	#backhelp{
+		height: 40px;
+		width: 40px;
+		right: 0px;
+	}
+	#speed{
+		font-size: 15px;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+		word-spacing: 2px;
+	}
+	#backabout{
+		height: 40px;
+		width:40px;
+		right:0;
+	}
+	body{
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	#href{
+		width: 40%;
+	}
+}
+@media screen and (max-width:900px) {
+	#head{ 
+		font-size: 20px;
+	}
+	.rightmain{
+		width: 100%;
+		display:block;
+		margin: 10px auto;
+	}
+	.leftmain{
+		width: 100%;
+		display:block;
+		margin: 10px auto;
+	}
+	.mainsection{
+		width: 90%;
+		margin: auto;
+	}
+	.container{
+	margin:0;
+	border-radius:0;
+	overflow: auto;
+	width: 100%;
+	}
+	#alldiv{
+		width: 100%;
+		}			
+	#start{
+		box-shadow: none;
+		background: url("");
+		border-radius:0;
+		width:100%;
+		margin-bottom: 0;
+	}
+	.person {
+		width: 40%;
+			}
+	#modal{
+		height:400px;
+		width:100%;
+		direction: rtl;
+		top:0px;
+		left: 0px;
+		border-radius: 20px;
+		margin: auto;
+		padding: 5px;
+		word-spacing: 1px;
+	}
+	#modal1{
+		height:400px;
+		width:100%;
+		direction: rtl;
+		top:0px;
+		left: 0px;
+		border-radius: 20px;
+		margin: auto;
+		padding: 5px;
+		word-spacing: 1px;
+	}
+	#backhelp{
+		height: 40px;
+		width: 40px;
+		right: 0px;
+	}
+	#speed{
+		font-size: 15px;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+		word-spacing: 2px;
+	}
+	#backabout{
+		height: 40px;
+		width:40px;
+		right:0;
+	}
+	body{
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+@media screen and (max-width:1024px) {
+	#head{ 
+		font-size: 20px;
+	}
+	.rightmain{
+		width: 100%;
+		display:block;
+		margin: 10px auto;
+	}
+	.leftmain{
+		width: 100%;
+		display:block;
+		margin: 10px auto;
+	}
+	.mainsection{
+		width: 90%;
+		margin: auto;
+	}
+	.container{
+	margin:0;
+	border-radius:0;
+	overflow: auto;
+	width: 100%;
+	}
+	#alldiv{
+		width: 100%;
+		}			
+	#start{
+		box-shadow: none;
+		background: url("");
+		border-radius:0;
+		width:100%;
+		margin-bottom: 0;
+	}
+	.person {
+		width: 40%;
+			}
+	#modal{
+		height:400px;
+		width:100%;
+		direction: rtl;
+		top:0px;
+		left: 0px;
+		border-radius: 20px;
+		margin: auto;
+		padding: 5px;
+		word-spacing: 1px;
+	}
+	#modal1{
+		height:400px;
+		width:100%;
+		direction: rtl;
+		top:0px;
+		left: 0px;
+		border-radius: 20px;
+		margin: auto;
+		padding: 5px;
+		word-spacing: 1px;
+	}
+	#backhelp{
+		height: 40px;
+		width: 40px;
+		right: 0px;
+	}
+	#speed{
+		font-size: 15px;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+		word-spacing: 2px;
+	}
+	#backabout{
+		height: 40px;
+		width:40px;
+		right:0;
+	}
+	body{
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}

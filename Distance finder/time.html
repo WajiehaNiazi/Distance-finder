@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Distance finder</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon 16x16" href="img/x.jpg">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="Stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<div id="homediv">
+					<a href="home.html"><i class="fa fa-home"></i></a>
+				</div>
+				<div onclick="closewindow()" id="close" >
+					<a id="closeevent"><i  class="fa fa-close"></i></a>
+				</div>
+				<div id="head"><h1>فاصله یاب</h1></div>
+			</header><div class="clr"></div>
+			<div class="mainsection">
+				<div id="href">
+					<a href="time.html"><button class="content2">زمان</button></a>
+					<a href="index.html"><button class="content2" >فاصله</button></a>
+				</div>
+				<div id="left" class="leftmain">
+					<label  id="t4"></label><br><br>
+					<div class="sce1">						
+						<select class="content1" id="t1">
+							<option value="کابل" selected>کابل</option>
+							<option value="هرات">هرات</option>
+							<option value="کندهار">کندهار</option>
+							<option value="پروان">پروان</option>
+							<option value="کاپیسا">کاپیسا</option>
+							<option value="میدان وردک">میدان وردک</option>
+							<option value="لوگر">لوگر</option>
+							<option value="پنجشیر">پنجشیر</option>
+							<option value="بلخ">بلخ</option>
+							<option value="فاریاب">فاریاب</option>
+							<option value="جوزجان">جوزجان</option>
+							<option value="سمنگان">سمنگان</option>
+							<option value="سرپل">سرپل</option>
+							<option value="پکتیا">پکتیا</option>
+							<option value="پکتیکا">پکتیکا</option>
+							<option value="غزنی">غزنی</option>
+							<option value="خوست">خوست</option>
+							<option value="ننگرهار">ننگرهار</option>
+							<option value="لغمان">لغمان</option>
+							<option value="کنر">کنر</option>
+							<option value="فراه">فراه</option>
+							<option value="غور">غور</option>
+							<option value="بادغیس">بادغیس</option>
+							<option value="تخار">تخار</option>
+							<option value="بدخشان">بدخشان</option>
+							<option value="کندز">کندز</option>
+							<option value="بغلان">بغلان</option>
+							<option value="هلمند">هلمند</option>
+							<option value="ارزگان">ارزگان</option>
+							<option value="نیمروز">نیمروز</option>
+							<option value="بامیان">بامیان</option>
+							<option value="نورستان">نورستان</option>
+							<option value="زابل">زابل</option>
+							<option value="دایکندی">دایکندی</option>
+						</select><br><br>
+						<select class="content1" id="t2">
+							<option value="کابل" selected>کابل</option>
+							<option value="هرات">هرات</option>
+							<option value="کندهار">کندهار</option>
+							<option value="پروان">پروان</option>
+							<option value="کاپیسا">کاپیسا</option>
+							<option value="میدان وردک">میدان وردک</option>
+							<option value="لوگر">لوگر</option>
+							<option value="پنجشیر">پنجشیر</option>
+							<option value="بلخ">بلخ</option>
+							<option value="فاریاب">فاریاب</option>
+							<option value="جوزجان">جوزجان</option>
+							<option value="سمنگان">سمنگان</option>
+							<option value="سرپل">سرپل</option>
+							<option value="پکتیا">پکتیا</option>
+							<option value="پکتیکا">پکتیکا</option>
+							<option value="غزنی">غزنی</option>
+							<option value="خوست">خوست</option>
+							<option value="ننگرهار">ننگرهار</option>
+							<option value="لغمان">لغمان</option>
+							<option value="کنر">کنر</option>
+							<option value="فراه">فراه</option>
+							<option value="غور">غور</option>
+							<option value="بادغیس">بادغیس</option>
+							<option value="تخار">تخار</option>
+							<option value="بدخشان">بدخشان</option>
+							<option value="کندز">کندز</option>
+							<option value="بغلان">بغلان</option>
+							<option value="هلمند">هلمند</option>
+							<option value="ارزگان">ارزگان</option>
+							<option value="نیمروز">نیمروز</option>
+							<option value="بامیان">بامیان</option>
+							<option value="نورستان">نورستان</option>
+							<option value="زابل">زابل</option>
+							<option value="دایکندی">دایکندی</option>
+						</select><br><br>
+						<label id="speed" style="float:right;">سرعت را وارد کنید</label><br>
+						<input id="text"><br><br>
+						<button class="content1" onclick="mytime()" id="time">دریافت  فاصله زمانی</button>
+						<label  id="t5"></label><br><br>
+					</div>
+				</div>
+				<div id="right" class="rightmain">
+						<div class="img">
+							<img src="img/کابل.png" id="Kabul" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/هرات.png" id="Herat" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/کندهار.png" id="Kandahar" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/پروان.png" id="Parwan" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/کاپیسا.png" id="Kapisa" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/وردک.png" id="MaidanWardak" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/لوگر.png" id="Logar" class="child-img">
+						</div>
+						<div class="img">
+						<img src="img/پنجشیر.png" id="Panjshir" class="child-img">
+						</div>
+						<div class="img">
+						<img src="img/بلخ.png" id="Balkh"class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/فاریاب.png"   id="Faryab" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/جوزجان.png"  id="Jowzjan" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/سمنگان.png" id="Samangan" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/سرپل.png" id="Sar-ePol" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/پکتیا.png" id="Paktia" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/پکتیکا.png" id="Paktika" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/غزنی.png" id="Ghazni" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/خوست.png" id="Khost" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/ننگرهار.png" id="Nangarhar" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/لغمان.png" id="Laghman" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/کنر.png"  id="Kunar" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/فراه.png"  id="Farah" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/غور.png" id="Ghor" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/بادغیس.png"  id="Badghis" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/تخار.png" id="Takhar" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/بدخشان.png" id="Badakhshan" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/کندز.png"  id="Kunduz" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/bg.png"  id="Baghlan" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/هلمند.png" id="Helmand" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/ارزگان.png"  id="Urozgan" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/نیمروز.png" id="Nimruz" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/بامیان.png" id="Bamyan" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/نورستان.png" id="Nuristan" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/زابل.png"  id="Zabul" class="child-img">
+						</div>
+						<div class="img">
+							<img src="img/دایکندی.png" id="Daykundi" class="child-img">
+						</div>
+				</div><div class="clr"></div>
+			</div>
+			<footer></footer>
+		</div>
+		<script type="text/javascript" src="js.js">
+		</script>
+	</body>
+</html>
+	
